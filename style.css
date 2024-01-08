@@ -1,0 +1,194 @@
+
+body{
+    display: block;
+    background-image: url('white-2484120_1280.png');
+
+}  
+.main-container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    align-items: center ;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); 
+   
+}
+
+.Header{
+position: relative;
+display: flex;
+flex-direction: row;
+width: 1000px;
+height: 60px;
+background-color: rgb(26, 39, 56);
+justify-content: space-between;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+
+}
+@media (max-width: 600px) {
+    .main-container {
+        width: 100%;
+    }
+}
+
+.Header nav ul {
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+   
+}
+nav a {
+    
+    text-decoration: none;
+    color:white;
+}
+
+
+.Header nav li{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 30px
+    
+    
+}
+.left{
+
+width:120px;
+
+background-color:rgb(26, 39, 56);
+
+}
+.left img{
+margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    
+}
+.main-content{
+width: 600px;
+height: 900px;
+margin-left: 10px;
+margin-top: 20px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+border-radius: 5px;
+background-color: white;
+background-image: url('plant-2004483_1280.jpg')
+
+}
+.color{
+    padding: 4px;
+    position: relative;
+    margin-left: 250px;
+ border-radius: 2px;
+ box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background-color: rgb(73, 162, 221);
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+.main-content p {
+    font-size: 15px;
+    font-weight: bold;
+    color: #373e42;
+    animation: bounce 2s infinite; /* Apply the bounce animation */
+}
+
+.one{
+
+width: 60px;
+display: inline;
+position: relative;
+ margin-left: 180px;
+justify-content: space-between;
+border-radius: 40px;
+
+}
+.two{
+    width: 60px;
+display: inline;
+position: relative;
+ margin-left: 120px;
+justify-content: space-between;
+border-radius: 40px;
+}
+.on{
+margin-left: 180px;
+}.tw{
+
+    margin-left: 160px;
+}
+
+.th{
+    margin-left: 90px;
+}
+
+.thr{
+    margin-left: 115px;
+}
+.fr{
+margin-left: 130px;
+
+}
+.twe{
+    margin-left: 180px;
+
+}
+
+.the{
+    margin-left: 120px;
+}
+.colr{
+padding: 4px;
+    position: relative;
+    margin-left: 240px;
+ border-radius: 2px;
+ box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background-color: rgb(73, 162, 221);
+}
+.clr{
+    padding: 4px;
+        position: relative;
+        margin-left: 280px;
+     border-radius: 2px;
+     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        background-color: rgb(73, 162, 221);
+    }
+
+
+    .footer{
+         
+        margin-top: 40px;
+background-color: rgb(26, 39, 56);
+height:60px;
+width:1000px;
+display: flex;
+align-items: center;box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    }
+
+    h4{
+color: white;
+        margin-left: 50px;
+        margin-right: 20px;
+    }
+
+
+    i{
+        width: 20px;
+        height: 20px;
+        color: white;
+        margin-left: 90px;
+    }
